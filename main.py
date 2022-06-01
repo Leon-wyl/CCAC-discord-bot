@@ -26,4 +26,4 @@ async def on_message(message):
     print(res_json['data']['image'])
     await message.channel.send(state + "\n\n" + draw + "\n\n" + "签语：" + annotate + "\n\n" + "解曰：" + explain + "\n\n" + "仙机："+ details + "\n\n" + "来源：" + source)
 
-client.run(os.getenv('TOKEN'))
+client.run(os.getenv('OTgxNTcyMjM5ODIyNTc3Njk1.GUCZWy.zTDG_oaWgzQcuF75N6m7EQXQ4amYWwA8F-SC5o'))
